@@ -1,0 +1,19 @@
+{
+  "name": "whatsapp-assistant",
+  "version": "3.5.0",
+  "private": true,
+  "description": "Assistente de pré-atendimento no WhatsApp (ManyChat): qualificação de leads, agendamento, lembretes e sorteios",
+  "main": "src/server.js",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --env-file=.env src/server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mysql2": "^3.11.0"
+  }
+}
